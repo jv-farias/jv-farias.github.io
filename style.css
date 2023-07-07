@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(198,245,255,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+body h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+body p {
+   padding-top: 2vh;
+   text-align: center;
+}
+
+.foto{
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgba(15, 142, 216, 0.678);
+    border-width: 12px;
+    width: 300px;
+
+}
+
+.bio{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.site-digital{
+    color: #111111;
+    text-decoration:none;
+}
+.site-digital :visited {
+    color:#85097a;
+    text-decoration:none;
+  }
+.site-digital :hover {
+    color:#1f1d1e;
+    text-decoration:none;
+  }
+
+
+.social-menu ul {
+    position: absolute;
+    top: 70vh;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .3s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #383434;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #E4405F;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #0A66C2;
+}
+
+
